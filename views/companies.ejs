@@ -1,0 +1,10 @@
+<% include partials/header %>
+<h1>This is the companies page</h1>
+
+<% companies.forEach(function(company){ %>
+    <h2><%=company.name%></h2>
+    <div><%=company.address%></div>
+    <div><%=company.phone%></div>
+<% }); %>
+
+<% include partials/footer %>
