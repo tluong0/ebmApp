@@ -11,18 +11,24 @@ app.get("/companies", function(req,res){
     var companies = [
         {
             name: "AMR",
-            address: "37 Broadway North Haven",
-            phone: "203-974-4877"
+            contact: "Trang Luong",
+            address: "37 Broadway North Haven CT 06473",
+            phone: "203-974-4877",
+            status: "Broker"
         },
          {
             name: "AMR",
-            address: "37 Broadway North Haven",
-            phone: "203-974-4877"
+            contact: "Trang Luong",
+            address: "37 Broadway North Haven CT 06473",
+            phone: "203-974-4877",
+            status: "Broker"
         },
          {
             name: "AMR",
-            address: "37 Broadway North Haven",
-            phone: "203-974-4877"
+            contact: "Trang Luong",
+            address: "37 Broadway North Haven CT 06473",
+            phone: "203-974-4877",
+            status: "Broker"
         }
         ];
     res.render("companies", {companies:companies});
